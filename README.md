@@ -21,7 +21,7 @@ This project is an interactive command-line AI agent that helps you fetch and an
 1. **Clone the repository**
 2. **Install dependencies:**
    ```bash
-   pip install youtube-transcript-api python-dotenv
+   pip install youtube-transcript-api python-dotenv openai-agents
    # Plus any requirements for your custom agents framework
    ```
 3. **Set up your `.env` file** with any required API keys or environment variables for your agent framework.
@@ -56,11 +56,3 @@ Agent:
 ...
 ```
 
-## Notes
-
-- The agent requires a custom `agents` framework and may need an OpenAI API key or similar credentials.
-- Only videos with available transcripts can be processed.
-
-## License
-
-MIT (or specify your license here)
